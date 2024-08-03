@@ -1,7 +1,7 @@
     const error1 = "*password length must be atleast 1"
     const error2 = "*Atleast 1 set of characters needs to be selected"
 
-function generatePassword(length, includeLowercase, includeUppercase, includeNumber, includeSymbols){
+function generatePassword(length, includeUppercase, includeLowercase, includeNumber, includeSymbols){
     
     const lowercaseChar = "abcdefghijklmnopqrstuvwyz"
     const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
